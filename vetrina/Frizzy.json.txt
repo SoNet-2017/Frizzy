@@ -1,0 +1,4 @@
+{
+    "titolo": "FRIZZY",
+    "descrizione":"FRIZZY è un Social Network che dà la possibilità a chiunque di organizzare un evento aperitivo."
+}
