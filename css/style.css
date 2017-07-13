@@ -3,17 +3,18 @@
     body {
         font: 14px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
         color: #666;
-        background: #eae6d1;
+        background: #f2f2f2;
         width: 100%;
     }
 
     h1 {
         font-size: 28px;
+        color: #f2137d;
     }
 
     h2 {
         font-size: 24px;
-        color: #393939;
+        color: #f2137d;
     }
 
     h3, h4, h5, h6 {
@@ -35,7 +36,7 @@
         text-align: left;
         padding: 5px 10px;
         border-bottom: 1px solid #e5e5e5;
-        border-right: 1px solid #ffcc00;
+        border-right: 1px solid #eaf32e;
     }
 
     header {
@@ -48,7 +49,7 @@
         right: 0;
         width: 100%;
         text-align: center;
-        background: #4276b6;
+        background: #621b8c;
         height: 76px;
     }
 
@@ -56,12 +57,12 @@
         position: relative;
         float: inherit;
         height: 50px;
-        background: #ffcc00;
+        background: #f2137d;
         margin-left: auto;
         margin-right: auto;
         width: 80%;
         top: -25px;
-        border: 1px solid #f0b500;
+        border: 1px solid #ad0153;
         border-radius: 5px 5px 5px 5px;
     }
 
@@ -90,8 +91,13 @@
     }
 
     a {
-        color: #3399cc;
+        color: #621b8c;
         text-decoration: none;
+    }
+
+    a:hover {
+        border-bottom: 2px solid #621b8c;
+        padding-bottom: 2px;
     }
 
     nav ul {
@@ -106,7 +112,12 @@
     }
 
     nav ul a:hover {
-        color: #999;
+        color: #621b8c;
+        border: 0;
+    }
+
+    nav li {
+      margin-bottom: 10px;
     }
 
     img[alt=diagram1] {
@@ -128,13 +139,14 @@
     #banner .button {
         border: 1px solid #dba500;
         border-radius: 5px;
-        background-color: #ffe788;
+        background-color: #eaf32e;
         margin-top: 7px;
         line-height: 14px;
         color: #333;
         display: inline-block;
         text-align: center;
         padding: 10px;
+        margin-left: 7px;
     }
 
     #banner #logo {
@@ -155,17 +167,18 @@
     body {
         font: 14px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
         color: #666;
-        background: #eae6d1;
+        background: #f2f2f2;
         width: 100%;
     }
 
     h1 {
         font-size: 28px;
+        color: #f2137d;
     }
 
     h2 {
         font-size: 24px;
-        color: #393939;
+        color: #f2137d;
     }
 
     h3, h4, h5, h6 {
@@ -187,7 +200,7 @@
         text-align: left;
         padding: 5px 10px;
         border-bottom: 1px solid #e5e5e5;
-        border-right: 1px solid #ffcc00;
+        border-right: 1px solid #eaf32e;
     }
 
     header {
@@ -200,7 +213,7 @@
         right: 0;
         width: 100%;
         text-align: center;
-        background: #4276b6;
+        background: #621b8c;
         height: 76px;
     }
 
@@ -208,12 +221,12 @@
         position: relative;
         float: inherit;
         height: 50px;
-        background: #ffcc00;
+        background: #f2137d;
         margin-left: auto;
         margin-right: auto;
         width: 80%;
         top: -25px;
-        border: 1px solid #f0b500;
+        border: 1px solid #ad0153;
         border-radius: 5px 5px 5px 5px;
     }
 
@@ -245,12 +258,16 @@
         width: 100%;
         position: relative;
         float: left;
-        border: 1px solid black;
     }
 
     a {
-        color: #3399cc;
+        color: #621b8c;
         text-decoration: none;
+    }
+
+    a:hover {
+        border-bottom: 2px solid #621b8c;
+        padding-bottom: 2px;
     }
 
     nav ul {
@@ -258,6 +275,7 @@
         font-size: 14px;
         line-height: 24px;
         display: block;
+        margin-top: 0;
     }
 
     nav ul li {
@@ -275,7 +293,8 @@
     }
 
     nav ul a:hover {
-        color: #999;
+        color: #621b8c;
+        border: 0;
     }
 
     img[alt=diagram1] {
@@ -297,13 +316,14 @@
     #banner .button {
         border: 1px solid #dba500;
         border-radius: 5px;
-        background-color: #ffe788;
+        background-color: #eaf32e;
         margin-top: 7px;
         line-height: 14px;
         color: #333;
         display: inline-block;
         text-align: center;
         padding: 10px;
+        margin-left: 7px;
     }
 
     #banner #logo {
